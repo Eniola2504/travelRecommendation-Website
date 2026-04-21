@@ -18,7 +18,7 @@ body {
   align-items: center;
   background-color: #272323;
   color: #ebe4e4;
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 
 .nav-bar {
@@ -26,7 +26,7 @@ body {
   display: flex;
   align-items: center;
   min-width: 700px;
-  max-width: 1400px;
+  max-width: 1000px;
 }
 
 .nav-header {
@@ -150,7 +150,7 @@ main {
   padding: 0px 20px;
 }
 
-button {
+#hero-button {
   padding: 12px 30px;
   border: none;
   background-color: #28a745;
@@ -163,7 +163,7 @@ button {
   box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
 }
 
-button:hover {
+#hero-button:hover {
   background-color: #218838;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(40, 167, 69, 0.4);
