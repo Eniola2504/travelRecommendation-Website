@@ -16,7 +16,7 @@ body {
   flex-flow: row wrap;
   max-width: 100%;
   align-items: center;
-  background-color: #272323;
+  background-color: #91ad70;
   color: #ebe4e4;
   padding: 10px 0px;
 }
@@ -58,14 +58,15 @@ body {
   font-size: 15px;
   font-weight: 300;
   padding: 5px 20px;
+  border-bottom: 2px solid transparent;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .nav-links a:hover {
-  background-color: rgb(250, 244, 244);
-  color: #181817;
-  transform: translateY(-2px);
+  border-bottom: 2px solid #386e36;
+  color: #ecebe5;
+  transform: none;
 }
 
 .search-bar {
@@ -270,3 +271,13 @@ button:active {
 .team-content div p:nth-of-type(even) {
   text-align: center;
 }
+
+/* ------------------- Contact Page style ----------------------------- */
+
+.contact-section {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 300px;
+}
+
+/* ================ SEARCH RESULTS STYLING ================ */
